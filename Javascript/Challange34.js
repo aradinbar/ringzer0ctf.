@@ -6,5 +6,5 @@ for (i=0; i < user.length ; i++){
   password = password + (String.fromCharCode(k[i] - user.charCodeAt(i) - (i*10)))
 }
 
-console.log(user)
-console.log(password)
+console.log(user) //  "administrator"
+console.log(password) // "OhLord4309111"
